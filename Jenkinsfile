@@ -20,7 +20,7 @@ pipeline {
         }
          stage('Deliver') {
             steps {
-                XCOPY /Y C:\Yogesh\HAILO\simple-react-app\build\ C:\nginx-1.18.0\html\build\
+                echo 'Delivery Case'
             }
         }
 	}

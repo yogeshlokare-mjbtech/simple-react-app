@@ -25,7 +25,7 @@ class CheckoutForm extends React.Component {
     return (
       <div>
         <div className="product-info">
-          <h3 className="product-title">Apple MacBook Pro</h3>
+          <h3 className="product-title">Apple MacBook Pro - Yogesh</h3>
           <h4 className="product-price">$999</h4>
         </div>
         <form onSubmit={this.handleSubmit}>

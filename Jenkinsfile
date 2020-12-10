@@ -20,7 +20,7 @@ pipeline {
         }
          stage('Deliver') {
             steps {
-                bat 'npm run build' 
+                XCOPY /Y ${WORKSPACE}\build\ C:\nginx-1.18.0\html\build 
             }
         }
 	}

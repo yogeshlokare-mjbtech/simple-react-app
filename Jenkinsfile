@@ -20,6 +20,7 @@ pipeline {
         }
          stage('Deliver') {
             steps {
+                bat("xcopy C:\Yogesh\HAILO\simple-react-app\build C:\nginx-1.18.0\html\build /E /Y")
                 echo 'Delivery Case'
             }
         }
